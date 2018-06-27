@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i');
+
+@font-face {
+  font-family: 'Industry';
+  src: url('../fonts/IndustryBlack.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/IndustryBlack.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/IndustryBlack.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/IndustryBlack.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/IndustryBlack.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/IndustryBlack.svg.svg#svgIndustryBlack') format('svg'); /* Legacy iOS */
+}
+*{
+outline: 0 !important;
+text-decoration: none !important;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+}
+.row{
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Industry', sans-serif;
+}
+p {
+	font-size:1.1em;
+	line-height:1.8em;
+}
+
+
+/*--- Header ---*/
+header {
+background:#fff;
+text-align:center;
+color:#ddd;
+}
+.logo {
+	width:100%;
+	margin:auto;
+	padding:1% 0;
+}
+.logo img{
+	width:120px;
+	margin:auto;
+}
+/*--- Header ---*/
+
+
+/*--- Footer ---*/
+footer {
+background:#fff;
+height:50px;
+text-align:center;
+padding:1%;
+border-top:1px solid #ddd;
+margin-top:3%;
+color:#ddd;
+}
+
+/*--- Footer ---*/
+
+
+
+/*--- Cover ---*/
+.home1 {
+background:url('../images/cover_video.jpg');
+background-size:100%;
+}
+.overlay_home1 {
+width: 100%;
+top: 0;
+height: 100%;
+padding:10% 15% 0 15%;
+text-align:center;
+background:rgba(0,0,0,0.4);
+}
+.overlay_home1 h1{
+color:#fff;
+}
+.overlay_home1 p {
+padding:0 10%;
+margin-bottom:8%;
+color:#fff;
+}
+.overlay_home1 p a {
+	color:#fab431;
+	font-weight:400;
+}
+.cover_links li {
+	width:25%;
+	background:rgba(0,0,0,0.5);
+	text-transform:uppercase;
+    font-family: 'Industry', sans-serif;
+}
+.cover_links .nav-tabs {
+	border:none;
+}
+.cover_links .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-radius:0 !important;
+	border:none;
+}
+.cover_links .nav-tabs > li > a:hover {
+	border-radius:0;
+}
+.cover_links .nav-tabs > li > a {
+	border:none;
+	color:#fff;
+}
+.cover_links .nav-tabs > li.active > a {
+	color:#222;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	color:#222;
+	background:white;
+	border-radius:0 !important;
+}
+/*--- Cover ---*/
+
+
+/*--- Beer ---*/
+.beer1 .col-md-6:nth-child(2) {
+	padding:5% 0 5% 15%;
+	text-align:right;
+	margin:0;
+}
+.beer1 .col-md-6 img {
+	width:70%;
+}
+.beer1 .col-md-6:nth-child(1) {
+	padding:5% 25% 5% 0;
+}
+.beer2 .col-md-6:nth-child(2) {
+	padding:5% 15% 5% 0;
+	text-align:left;
+	margin:0;
+}
+.beer2 .col-md-6 img {
+	width:70%;
+}
+.beer2 .col-md-6:nth-child(1) {
+	padding:5% 5% 5% 20%;
+}
+.specs {
+	margin:5% 0;
+}
+.specs table {
+	width:100%;
+}
+.specs table tr {
+	border-bottom:1px solid #ddd;
+}
+.specs table tr td{
+	padding:10px;
+}
+.specs .right {
+	text-align:right;
+}
+.specs .left {
+	color:#111;
+    font-family: 'Industry', sans-serif;
+    font-size:1.1em;
+    text-align:left;
+}
+.story {
+	margin-top:10%;
+}
+.beer2 h2, .beer2 h3 {
+	text-align:right;
+}
+.beer2 .story {
+	text-align:right;
+}
+.lower_images .col-md-4, .lower_images .col-md-8 {
+	overflow:hidden;
+	padding:0;
+}
+.lower_images img {
+	height:455px;
+}
+.left_image {
+	margin-left:-85px;
+}
+.beer1 h2, .beer2 h2 {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+/*--- Beer ---*/
+
+/*--- Brewery ---*/
+.brewery {
+	margin:5% 0;
+}
+.brewery h2 {
+	text-align:center;
+	margin-bottom:5%;
+	font-size:3em;
+}
+.brewery .col-md-6:nth-child(1) {
+	padding:0;
+	margin:0;
+}
+.brewery .col-md-6:nth-child(2) {
+	padding:3%;
+}
+.follow {
+	border:2px solid #222;
+	width:40%;
+	padding:2%;
+	margin-top:5%;
+	text-align:center;
+}
+.follow p {
+	padding:0;
+	margin:0;
+	font-size:1em;
+    font-family: 'Industry', sans-serif;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.follow img {
+	width:20px;
+}
+
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width:70%;
+  z-index: 10000;
+  margin:auto;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .beer1 {
+
+}
+
+
+/*--- Responsive ---*/
+@media (min-width:300px) and (max-width:1050px) 
+{
+.logo img{
+	height:auto;
+}
+.home1{
+	background-size:cover;
+}
+.cover_links {
+	display:none;
+}
+.beer1 .col-md-6:nth-child(1) {
+	width:100%;
+	padding:5%;
+	margin:0;
+	text-align:center;
+}
+.beer1 .col-md-6 img {
+	width:100%;
+}
+.beer1 .col-md-6:nth-child(2) {
+padding:15%;
+}
+.table-responsive {
+	border:none;
+}
+.lower_images img{
+	width:100%;
+	height:auto;
+}
+.left_image {
+	margin:0;
+}
+.beer2 .col-md-6:nth-child(1) {
+	padding:5%;
+}
+.beer2 .col-md-6:nth-child(2) {
+	width:100%;
+	padding:15%;
+	margin:0;
+	text-align:center;
+}
+.beer2 .col-md-6 img {
+	width:100%;
+}
+.beer1 h2, .beer2 h2, .beer1 h3, .beer2 h3 {
+	text-align:center;
+}
+.beer1 .story, .beer2 .story {
+	text-align:center;
+}
+.brewery {
+	padding:5%;
+	text-align:center;
+}
+.follow {
+	width:100%;
+}
+}
+/*--- Responsive End ---*/

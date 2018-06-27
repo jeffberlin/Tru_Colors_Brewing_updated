@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+      "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head profile="http://www.w3.org/TR/html4/strict.dtd">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109210388-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+         gtag('config', 'UA-109210388-1');
+        </script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="images/favicon_32x32.png">
+        <title>TRU Colors Brewing Co.</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/sdr4cot.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    </head>
+    <body>
+
+       <!-- NAVIGATION -->
+        <nav class="navbar-fixed-top" id="navigation">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-12 col-md-12 col-sm-12 menu-list">
+                        <!-- LOGO -->
+                        <a class="brand" href="" onclick="reloadHome()">
+                            <img style="height: 40px; margin-top: 7px; margin-bottom: 7px;" src="images/tru_colors_brewing_logo_long_min.png" alt="Tru Colors Logo">
+                        </a>
+                        <!-- END LOGO -->
+
+                <!-- MOBILE MENU BUTTON -->
+                        <div class="mobile-menu-hamburger" onclick="clearDropdown()" data-toggle="collapse" data-target="#mobile-menu" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+
+                        </div>
+                            
+                        <ul class="collapse navbar-collapse" id="mobile-menu">
+                            
+                            <li class="mobile-nav-item">
+                                <a href="/" onclick="reloadHome()">Home</a>
+                            </li>
+
+                            <!-- <li class="mobile-nav-item">
+
+                                <a class="nav-link" onclick="openFirstDropdown()">Apprenticeship ▾</a>
+                                <div class="dropdown-content" id="dropdown-apprenticeship">
+                                    <a href="/apply">Apply</a>
+                                    <a href="/contractors">Contractors</a>
+                                </div>
+
+                            </li> -->
+
+                            <li class="mobile-nav-item">
+                                <a href="/contractors">Work With Us</a>
+                            </li>
+
+                            <li class="mobile-nav-item">
+                                <a style="color: #fcb514;">Team</a>
+                            </li>
+
+                            <li class="mobile-nav-item">
+                                <a href="/events">Events</a>
+                            </li>
+
+                            <!-- <li class="mobile-nav-item">
+                                <a href="#">Blog</a>
+                            </li> -->
+                        
+                            <li class="mobile-nav-item">
+                                <a href="/contact">Contact</a>
+                            </li>
+
+                        </ul>
+
+                <!-- END MOBILE MENU BUTTON -->
+                        
+                    <!-- MAIN MENU -->
+                        <ul id="main-menu" class="page-nav">
+
+                            <li>
+                                <a href="/" onclick="reloadHome()">Home</a>
+                            </li>
+
+                            <!-- <li><a href="/beer" class="beer-menu">Our Beers</a></li> -->
+
+                            <!-- <li class="nav-item dropdown">
+
+                                <a class="nav-link">Apprenticeship ▾</a>
+                                <div class="dropdown-content">
+                                    <a href="/apply">Apply</a>
+                                    <a href="/contractors">Contractors</a>
+                                </div>
+
+                            </li> -->
+
+                            <li>
+                                <a href="/contractors">Work With Us</a>
+                            </li>
+
+                            <li>
+                                <a style="color: #fcb514;">Team</a>
+                            </li>
+
+                            <li>
+                                <a href="/events">Events</a>
+                            </li>
+
+                            <!-- <li><a href="#">Blog</a></li> -->
+                            
+                            <li>
+                                <a href="/contact">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    <!-- END NAV BAR -->
+
+        <div class="header-image container-fluid">
+
+            <div class="row justify-content-center align-items-center text-center">
+
+                <div class="col" style="margin-top: 40vh;">
+
+                    <h2>"Coming together is a beginning;</br>keeping together is progress;</br>working together is success."</br>– Henry Ford –</h2>
+
+                </div>
+
+            <!-- <div class="col" style="margin-top: 45vh;">
+
+                <h2 id="team-header-first">THE</h2>
+
+                <h2 id="team-header-next">TEAM</h2>
+
+            </div> -->
+
+                <img class="arrow animated bounce" id="team-arrow" src="images/down_arrow_min_2.png" alt="down arrow">
+
+            </div>
+
+        </div>
+
+        <!-- MEET THE TEAM SECTION -->
+
+        <div class="page-team container">
+
+            <div class="row text-center">
+
+                <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 col-xs-10">
+
+                    <h1>Team TRU</h1>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/andre_smiles_min.jpg" alt="Andre">
+
+                    <h5>Andre<br/>
+                        <!-- <small>Sales Rep</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/bruce_smiles_min.jpg" alt="Bruce">
+
+                    <h5>Bruce<br/>
+                        <!-- <small>Sales Rep</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/cj_smiles_min.jpg" alt="CJ">
+
+                    <h5>Carlton<br/>
+                        <!-- <small>Sales Rep</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/chaz_smiles_min.jpg" alt="Chaz">
+
+                    <h5>Chaz<br/>
+                        <!-- <small>Marketing Manager</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/cory_smiles_min.jpg" alt="Cory">
+
+                    <h5>Cory<br/>
+                        <!-- <small>Marketing Manager</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/dacious_smiles_min.jpg" alt="Dacious">
+
+                    <h5>Dacious<br/>
+                        <!-- <small>Sales Rep</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/denzel_smiles_min.jpg" alt="Denzel">
+
+                    <h5>Daenzel<br/>
+                        <!-- <small>Brewing Assistant</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/daiquan_smiles_min.jpg" alt="Daiquan">
+
+                    <h5>Daiquan<br/>
+                        <!-- <small>Brewing Assistant</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/deangelo_smiles_min.jpg" alt="Deangelo">
+
+                    <h5>D'angelo<br/>
+                        <!-- <small>Brewing Assistant</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/eileen_smiles_min.jpg" alt="Eileen">
+
+                    <h5>Eileen<br/>
+                        <!-- <small>Compliance Officer</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/haikem_smiles_min.jpg" alt="Haikem">
+
+                    <h5>Haikem<br/>
+                        <!-- <small>Compliance Officer</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/johnnathun_smiles_min.jpg" alt="Johnnathun">
+
+                    <h5>Johnnathun<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/jovon_smiles_min.jpg" alt="Jovon">
+
+                    <h5>Jovon<br/>
+                        <!-- <small>Financial Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/juan_smiles_min.jpg" alt="Juan">
+
+                    <h5>Juan<br/>
+                        <!-- <small>Operations Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/keavon_smiles_min.jpg" alt="Keavon">
+
+                    <h5>Keavon<br/>
+                        <!-- <small>Compliance Officer</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/keishon_smiles_min.jpg" alt="Keishon">
+
+                    <h5>Keishon<br/>
+                        <!-- <small>Compliance Officer</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/khalilah_smiles_min.jpg" alt="Khalilah">
+
+                    <h5>Khalilah<br/>
+                        <!-- <small>Director of Human Resources</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/kiara_smiles_min.jpg" alt="Kiara">
+
+                    <h5>Kiara<br/>
+                        <!-- <small>Compliance Officer</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/lennard_smiles_min.jpg" alt="Lennard">
+
+                    <h5>Lennard<br/>
+                        <!-- <small>Culture Captain</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/malik_smiles_min.jpg" alt="Malik">
+
+                    <h5>Malik<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/marcus_smiles_min.jpg" alt="Marcus">
+
+                    <h5>Marcus<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/mark_smiles_min.jpg" alt="Mark">
+
+                    <h5>Mark<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/marquiece_smiles_min.jpg" alt="Marquiece">
+
+                    <h5>Marqueice<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/oarmonz_smiles_min.jpg" alt="Oarmonz">
+
+                    <h5>Oarmonz<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/rakim_smiles_min.jpg" alt="Rakim">
+
+                    <h5>Rakim<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/steve_smiles_min.jpg" alt="Steve">
+
+                    <h5>Steve<br/>
+                        <!-- <small>Community Relations Specialist</small> -->
+                    </h5>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 thumbnails">
+
+                    <img class="img-circle" src="images/veshon_smiles_min.jpg" alt="Xavier">
+
+                    <h5>Veshon<br/>
+                        <!-- <small>Recruitment Specialist</small> -->
+                    </h5>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <div class="container-fluid footer">
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-6 col-xs-12 order-xs-2">
+                    <p style="margin-bottom: 0;">&copy; 2017 TRU Colors Brewing Co.</p>
+                </div>
+
+                <div class="col-6 col-xs-12 order-xs-1">
+
+                    <!-- <a href="https://www.linkedin.com/company/24985404/" target="_blank"><img src="images/linkedin_black-min.png" class="img-fluid" alt="LinkedIn"></a> -->
+
+                    <!-- <a href="/contact"><img src="images/mail_black-min.png" class="img-fluid" alt="Mail"></a> -->
+
+                    <a href="https://www.instagram.com/trucolorsbrewing/" target="_blank"><img src="images/instagram_black.png" class="img-fluid" alt="Instagram"></a>
+
+                    <a href="https://twitter.com/TruColorsBrew?lang=en" target="_blank"><img src="images/twitter_black-min.png" class="img-fluid" alt="Twitter"></a>
+
+                    <a href="https://www.facebook.com/TRUcolorsbrewing/" target="_blank"><img src="images/facebook_black-min.png" class="img-fluid" alt="Facebook"></a>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
