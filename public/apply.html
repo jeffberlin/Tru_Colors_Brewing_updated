@@ -29,7 +29,7 @@
                 <div class="row justify-content-between">
                     <div class="col-lg-12 col-md-12 col-sm-12 menu-list">
                         <!-- LOGO -->
-                        <a class="brand" href="/" onclick="reloadHome()">
+                        <a class="brand" href="index.html" onclick="reloadHome()">
                             <img style="height: 40px; margin-top: 7px; margin-bottom: 7px;" src="images/tru_colors_brewing_logo_long_min.png" alt="Tru Colors Logo">
                         </a>
                         <!-- END LOGO -->
@@ -42,11 +42,11 @@
                             <span class="icon-bar"></span>
 
                         </div>
-                            
+
                         <ul class="collapse navbar-collapse" id="mobile-menu">
-                            
+
                             <li class="mobile-nav-item">
-                                <a href="/">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
 
                             <li class="mobile-nav-item">
@@ -54,35 +54,35 @@
                                 <a class="nav-link" onclick="openFirstDropdown()" style="color: #fcb514;">Apprenticeship ▾</a>
                                 <div class="dropdown-content" id="dropdown-apprenticeship">
                                     <a style="color: #fcb514;">Apply</a>
-                                    <a href="/contractors">Contractors</a>
+                                    <a href="contractor.html">Contractors</a>
                                 </div>
 
                             </li>
 
                             <li class="mobile-nav-item">
-                                <a href="/team">Team</a>
+                                <a href="team.html">Team</a>
                             </li>
 
                             <li class="mobile-nav-item">
-                                <a href="/events">Events</a>
+                                <a href="events.html">Events</a>
                             </li>
 
                             <!-- <li class="mobile-nav-item">
                                 <a href="#">Blog</a>
                             </li> -->
-                        
+
                             <li class="mobile-nav-item">
-                                <a href="/contact">Contact</a>
+                                <a href="contact.html">Contact</a>
                             </li>
 
                         </ul>
 
                 <!-- END MOBILE MENU BUTTON -->
-                        
+
                     <!-- MAIN MENU -->
                         <ul id="main-menu" class="page-nav">
 
-                            <li><a href="/" onclick="reloadHome()">Home</a></li>
+                            <li><a href="index.html" onclick="reloadHome()">Home</a></li>
 
                             <!-- <li><a href="/beer" class="beer-menu">Our Beers</a></li> -->
 
@@ -91,24 +91,24 @@
                                 <a class="nav-link" style="color: #fcb514;">Apprenticeship ▾</a>
                                 <div class="dropdown-content">
                                     <a style="color: #fcb514;">Apply</a>
-                                    <a href="/contractors">Contractors</a>
+                                    <a href="contractor.html">Contractors</a>
                                 </div>
 
                             </li>
 
                             <li>
-                                <a href="/team">Team</a>
+                                <a href="team.html">Team</a>
                             </li>
 
                             <li>
 
-                                <a href="/events">Events</a>
+                                <a href="events.html">Events</a>
 
                             </li>
 
                             <!-- <li><a href="#">Blog</a></li> -->
-                            
-                            <li><a href="/contact">Contact</a></li>
+
+                            <li><a href="contact.html">Contact</a></li>
 
                         </ul>
 
@@ -125,9 +125,9 @@
         <div class="apply-header container" style="margin-top: 54px;">
 
             <div class="row justify-content-center">
-            
+
                 <div>
-                    
+
                     <img class="img-fluid" src="images/tru_colors_apply_header_min2.jpg" alt="Apprenticeship header image">
 
                 </div>
@@ -170,7 +170,7 @@
 
                             <label class="control-label" for="inputSuccess2">First Name:</label>
 
-                            <input class="form-control" type="text" name="name" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="First Name" required>
+                            <input class="form-control" type="text" name="name" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="First Name" required disabled>
 
                         </div>
 
@@ -178,7 +178,7 @@
 
                             <label for="exampleInputLastName">Last Name:</label>
 
-                            <input class="form-control" type="text" name="name" placeholder="Last Name" required>
+                            <input class="form-control" type="text" name="name" placeholder="Last Name" required disabled>
 
                         </div>
 
@@ -186,7 +186,7 @@
 
                             <label for="exampleInputEmail">Email:</label>
 
-                            <input class="form-control" type="email" name="mail" placeholder="your@email.com" required>
+                            <input class="form-control" type="email" name="mail" placeholder="your@email.com" required disabled>
 
                         </div>
 
@@ -194,7 +194,7 @@
 
                             <label for="exampleInputPhone">Phone:</label>
 
-                            <input class="form-control" type="tel" name="phone" placeholder="(000) 000-0000" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);" required>
+                            <input class="form-control" type="tel" name="phone" placeholder="(000) 000-0000" onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);" required disabled>
 
                         </div>
 
@@ -202,11 +202,11 @@
 
                             <label for="exampleInputMessage">Tell us about yourself:</label>
 
-                            <textarea class="form-control" rows="3" type="text" name="message" placeholder="Tell us about yourself and the things that make you unique." required></textarea>
+                            <textarea class="form-control" rows="3" type="text" name="message" placeholder="Tell us about yourself and the things that make you unique." required disabled></textarea>
 
                         </div>
 
-                        <input class="submit-button" type="submit" value="SUBMIT">
+                        <input class="submit-button" type="submit" value="SUBMIT" disabled>
 
                     </form>
 
