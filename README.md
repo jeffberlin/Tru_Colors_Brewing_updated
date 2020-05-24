@@ -1,6 +1,6 @@
 # Website for Tru Colors Brewing Co.
 
-## Live website: https://jeffberlin.github.io/Tru_Colors_Brewing_updated/public
+## Live website: https://jeffberlin.github.io/Tru_Colors_Brewing_updated/
 
 # TRU Colors Brewing
 
